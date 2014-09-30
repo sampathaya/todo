@@ -38,3 +38,16 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'capistrano', '~> 3.1.0'
+
+# rails specific capistrano funcitons
+gem 'capistrano-rails', '~> 1.1.0'
+
+# integrate bundler with capistrano
+gem 'capistrano-bundler'
+
+# if you are using RVM
+gem 'capistrano-rvm'
+
+# Use the Unicorn app server
+gem 'unicorn'
