@@ -28,8 +28,8 @@ fi
 
 source recipes/build-essential.sh
 source recipes/git.sh
-# source recipes/rbenv.sh <%= @attributes.ruby_version %>
-source recipes/rvm.sh <%= @attributes.ruby_version %>
+source recipes/rbenv.sh <%= @attributes.ruby_version %>
+# source recipes/rvm.sh <%= @attributes.ruby_version %>
 source recipes/nginx.sh
 source recipes/nodejs.sh
 # source recipes/postgres.sh
